@@ -1,0 +1,32 @@
+{
+  "name": "metamask-decrypt-cli",
+  "version": "2.0.0",
+  "description": "Decrypt MetaMask vaults from every Chrome profile on this machine",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "metamask-decrypt": "./src/cli.js"
+  },
+  "scripts": {
+    "decrypt": "node src/cli.js",
+    "start": "node src/cli.js",
+    "verbose": "node src/cli.js --verbose"
+  },
+  "keywords": [
+    "metamask",
+    "vault",
+    "decrypt",
+    "wallet",
+    "cli"
+  ],
+  "license": "ISC",
+  "files": [
+    "src"
+  ]
+}
