@@ -1,7 +1,3 @@
-#!/usr/bin/env node
-/**
- * metamask-decrypt — decrypt every MetaMask profile found on this machine.
- */
 
 import fs from 'node:fs'
 import path from 'node:path'
