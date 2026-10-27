@@ -1,7 +1,4 @@
-/**
- * MetaMask vault toolkit: extract, decrypt, discover browser profiles, and
- * crack passwords across every profile with a worker pool.
- */
+
 
 import fs from 'node:fs'
 import os from 'node:os'
