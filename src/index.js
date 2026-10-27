@@ -18,7 +18,7 @@ const MAX_WORKERS = 32
 const WORKER_URL = new URL('./worker.js', import.meta.url)
 const GENERIC = Symbol('generic')
 
-/* ── decryption ─────────────────────────────────────────────────────────── */
+/* decryption login */
 
 export function isVault(vault) {
   return (
