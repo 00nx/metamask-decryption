@@ -1,6 +1,6 @@
 {
   "name": "metamask-decrypt-cli",
-  "version": "2.0.0",
+  "version": "2.6.0",
   "description": "Decrypt MetaMask vaults from every Chrome profile on this machine",
   "type": "module",
   "engines": {
